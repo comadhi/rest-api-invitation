@@ -26,6 +26,7 @@ db.sequelize = sequelize;
 
 db.user = require("../models/user.model.js")(sequelize, Sequelize);
 db.role = require("../models/role.model.js")(sequelize, Sequelize);
+db.guest = require("../models/guest.model.js")(sequelize, Sequelize);
 db.user_balance = require("../models/user_balance.model.js")(sequelize, Sequelize);
 db.user_balance_history = require("../models/user_balance_history.model.js")(sequelize, Sequelize);
 

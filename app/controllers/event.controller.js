@@ -1,8 +1,8 @@
 const db = require("../models");
-const Guest = db.guest;
+const Event = db.event;
 
-exports.insertGuest = (req, res) => {
-    Guest.create({
+exports.insertEvent = (req, res) => {
+    Event.create({
         name: req.body.name,
         address: req.body.address,
         telephone: req.body.telephone,
