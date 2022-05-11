@@ -15,4 +15,10 @@ module.exports = function (app) {
     [authJwt.verifyToken],
     controller.insertGuest
   );
+  
+  app.get(
+    "/api/guest/findall",
+    [authJwt.verifyToken],
+    controller.getAllGuest
+  );
 };
