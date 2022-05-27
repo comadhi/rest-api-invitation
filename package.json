@@ -4,9 +4,10 @@
   "description": "Make web service wiht Node.js for JWT Authentication",
   "main": "server.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch",
-    "build": "webpack"
+    "build": "npm run build"
   },
   "keywords": [
     "node.js",
@@ -27,6 +28,8 @@
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.15",
     "sequelize": "^5.21.3",
-    "sequelize-cli": "^2.7.0"
+    "sequelize-cli": "^2.7.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
   }
 }
