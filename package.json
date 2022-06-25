@@ -4,7 +4,7 @@
   "description": "Make web service wiht Node.js for JWT Authentication",
   "main": "server.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch",
     "build": "npm run build"
