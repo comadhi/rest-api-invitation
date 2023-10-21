@@ -19,7 +19,8 @@ exports.signup = (req, res) => {
       if (req.body.roles) {
         Role.findAll({
           where: {
-            name: {
+            name: 
+            {
               [Op.or]: req.body.roles
             }
           }
